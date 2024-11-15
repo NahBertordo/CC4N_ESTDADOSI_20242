@@ -1,0 +1,25 @@
+Análise de complexidade do QuickSort
+complexidade de tempo:
+
+Melhor caso:
+Divisão do array em 2 partes pelo pivô: O(n log n)
+
+Médio caso: 
+Permanece sendo: O(n log n)
+
+Pior caso: 
+Quando o pivô escolhido é o menor ou o maior elemento do array: O(n²)
+
+Complexidade de espaço:
+Depende da profundidade das chamadas recursivas, pois o array é particionado de forma desigual. E no pior caso, a profundidade da recursão é: O(n).
+No melhor caso, já que o array é dividido igualmente. A profundidade da recursão é: O(log n).
+
+Execução de testes
+->Melhor caso: O vetor já está ordenado
+int array[] = {34, 7, 23, 32, 5, 62};
+
+->Pior caso: O vetor está em ordem inversa
+int array[] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+->Caso médio: O vetor é gerado aleatoriamente
+int array[] = {10, 20, 5, 1, 40, 30, 35};

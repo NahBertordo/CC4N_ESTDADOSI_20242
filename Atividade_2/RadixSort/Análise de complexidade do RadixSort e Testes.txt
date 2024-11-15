@@ -1,0 +1,29 @@
+Análise de complexidade do RadixSort
+complexidade de tempo:
+
+Melhor caso:
+Ordenação por dígito: O(n+k)
+Número de dígitos: O(d*(n+k))
+Complexidade total: O(d*n)
+
+Caso médio:
+Permanece com a complexidade O(d*n)
+Counting Sort: O(n+k)
+Complexidade total: O(d*n)
+
+Pior caso:
+Permanece com a complexidade O(d*n)
+Complexidade total: O(d*n)
+
+Complexidade de espaço
+Em todo os casos a complexidade total é: O(n+k)
+
+Execução de testes
+->Melhor caso: O vetor já está ordenado
+int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+->Pior caso: O vetor está em ordem inversa
+int array[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+
+->Caso médio: O vetor é gerado aleatoriamente
+int array[] = {12, 11, 13, 5, 6, 7, 3, 10, 4, 2};

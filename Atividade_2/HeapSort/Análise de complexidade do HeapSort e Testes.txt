@@ -1,0 +1,21 @@
+Análise de complexidade do HeapSort
+Complexidade de tempo:
+*Construção do heap: O(n)
+*Ordenação:
+ ->Troca: O(1)
+ ->Heapify: O(log n)
+*Extração do maior elemento e re-heaping: O(n log n)
+*Complexidade total: O(n log n)
+
+Complexidade de espaço:
+O HeapSort é uma ordenação em lugar, então a complexidade de espaço é O(uso constante de memória adicional).
+
+Execução de testes
+->Melhor caso: O vetor já está ordenado
+int array[] = {1, 2, 3, 4, 5, 6, 7};
+
+->Pior caso: O vetor está em ordem inversa
+int array[] = {7, 6, 5, 4, 3, 2, 1};
+
+->Caso médio: O vetor é gerado aleatoriamente
+int array[] = {12, 11, 13, 5, 6, 7};
