@@ -1,0 +1,13 @@
+Análise da BST:
+• melhor caso : C(n) = O(1)
+• pior caso: C(n) = O(n)
+• caso médio : C(n) = O(log n)
+O tempo de execução dos algoritmos para BST dependem
+muito do formato das árvores.
+
+1. Para acontecer o pior caso basta que as chaves sejam inseridas em ordem crescente
+ou decrescente. Neste caso a árvore resultante é uma lista linear, cujo número
+médio de comparações é (n + 1)/2.
+2. Para uma BST aleatória o número esperado de comparações para
+recuperar um registro qualquer é cerca de 1,39 log n, apenas 39% pior que a árvore
+completamente balanceada.

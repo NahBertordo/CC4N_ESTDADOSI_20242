@@ -1,0 +1,15 @@
+Análise da AVL:
+• A eficiência da busca em uma árvore binária depende do seu balanceamento.
+• O(log N), se a árvore está balanceada
+• O(N), se a árvore não está balanceada
+• N corresponde ao número de nós na árvore
+
+->Busca (Search):
+*Complexidade: O(log n)
+
+->Inserção (Insertion):
+*Complexidade: O(log n)
+
+->Remoção (Deletion):
+*Complexidade: O(log n)
+
